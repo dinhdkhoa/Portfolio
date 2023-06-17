@@ -19,15 +19,22 @@ export default defineConfig({
     }
   },
 
-  head: [['link', { rel: 'icon', href: './public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: './favicon.ico' }]],
   appearance: 'dark',
   transformHead: ({ pageData }) => {
     const head: HeadConfig[] = []
 
     head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:url', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:type', content: pageData.frontmatter.description }])
+    head.push([
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          'Đinh Khoa là một Front End Developer tại Ottâ. Anh ấy là một 👨‍💻 developer, ✒️ blogger và 👨‍🎓 mentor dạy lập trình website'
+      }
+    ])
+    head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
+    head.push(['meta', { property: 'og:type', content: 'profile' }])
     head.push(['meta', { property: 'og:image', content: './public/meta-image.png' }])
 
     return head
