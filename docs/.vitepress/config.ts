@@ -35,7 +35,7 @@ export default defineConfig({
     ])
     head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
     head.push(['meta', { property: 'og:type', content: 'profile' }])
-    head.push(['meta', { property: 'og:image', content: './public/meta-image.png' }])
+    head.push(['meta', { property: 'og:image', content: './meta-image.png' }])
 
     return head
   }
