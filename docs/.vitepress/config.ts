@@ -29,13 +29,14 @@ export default defineConfig({
       'meta',
       {
         property: 'og:description',
-        content:
-          'Đinh Khoa là một Front End Developer tại Ottâ. Anh ấy là một 👨‍💻 developer, ✒️ blogger và 👨‍🎓 mentor dạy lập trình website'
+        content: 'Đinh Khoa is a Front End Developer in Ottawa. He is 👨‍💻 React developer.'
       }
     ])
     head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
     head.push(['meta', { property: 'og:type', content: 'profile' }])
     head.push(['meta', { property: 'og:image', content: './meta-image.png' }])
+    head.push(['meta', { property: 'og:image:width', content: '1500px' }])
+    head.push(['meta', { property: 'og:image:height', content: '1500px' }])
 
     return head
   }
