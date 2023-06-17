@@ -31,6 +31,5 @@ export default defineConfig({
     head.push(['meta', { property: 'og:image', content: './public/meta-image.png' }])
 
     return head
-  },
-  base: '/Portfolio/'
+  }
 })
