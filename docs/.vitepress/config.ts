@@ -32,5 +32,5 @@ export default defineConfig({
 
     return head
   },
-  base: '/portfolio/'
+  base: '/Portfolio/'
 })
