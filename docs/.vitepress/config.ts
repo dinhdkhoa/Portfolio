@@ -19,18 +19,25 @@ export default defineConfig({
     }
   },
 
-  head: [['link', { rel: 'icon', href: './public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: './favicon.ico' }]],
   appearance: 'dark',
   transformHead: ({ pageData }) => {
     const head: HeadConfig[] = []
 
     head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:url', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:type', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:image', content: './public/meta-image.png' }])
+    head.push([
+      'meta',
+      {
+        property: 'og:description',
+        content: 'Đinh Khoa is a Front End Developer in Ottawa. He is 👨‍💻 React developer.'
+      }
+    ])
+    head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
+    head.push(['meta', { property: 'og:type', content: 'profile' }])
+    head.push(['meta', { property: 'og:image', content: './meta-image.png' }])
+    head.push(['meta', { property: 'og:image:width', content: '1500px' }])
+    head.push(['meta', { property: 'og:image:height', content: '1500px' }])
 
     return head
-  },
-  base: '/portfolio/'
+  }
 })
