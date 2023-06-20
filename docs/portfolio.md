@@ -13,8 +13,16 @@ description: Đinh Khoa Portfolio Page
 
 A e-commerce website built with React and Typescript based on [Shopee.vn](https://shopee.vn/).\
 Technology used: \
-. Framework & Libraries: React with TS, react-query, react-router. \
-. UI libraries: Tailwind CSS. \
-. Other technologies: Vite, multi-languages with i18next, Storybook, testing with Vitest
+
+- Manage authentication with JWT (automatic token refresh applied)
+- Use Yup and React Hook Form to validate the form.
+- Smart Pagination, Filter, and Product Search
+- Incorporate state into the URL to easily share results across devices.
+- Asynchronous state management with React Query
+- Improve performance by optimizing build file size analysis.
+- SEO with React Helmet
+- Separating private and public routes.
+- Code Splitting, Unit Testing
+- Manage components with Storybook
 
 **[Live Demo](https://shopee.dinhkhoa.dev) | [Source Code](https://github.com/dinhdkhoa/Shopee-Clone)**

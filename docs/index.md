@@ -15,8 +15,8 @@ hero:
   actions:
     - theme: brand
       text: Resume
-      link: /guide/what-is-vitepress
+      link: https://onedrive.live.com/?authkey=%21AJN9DLjrS%5FwfCm4&id=96CF5B531474F268%215879&cid=96CF5B531474F268&parId=root&parQt=sharedby&o=OneUp
     - theme: alt
       text: Contact
-      link: https://github.com/vuejs/vitepress
+      link: mailto:kddinh212@gmail.com
 ---
