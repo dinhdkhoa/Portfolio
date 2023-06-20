@@ -19,4 +19,4 @@ description: Đinh Khoa Experience Page
 ## Education
 
 2020 - 2023 \
-**Algonquin College** | Internet Developemnt & Application
+**Algonquin College** | Internet Web Development & Mobile Application

@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'Portfolio', link: '/portfolio' }
     ],
     footer: {
-      message: 'Thank you for visiting.'
+      message: 'Thank you for visiting. Built with <a href="https://vuejs.org/">Vue.js</a>.'
     }
   },
 
@@ -35,8 +35,8 @@ export default defineConfig({
     head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
     head.push(['meta', { property: 'og:type', content: 'profile' }])
     head.push(['meta', { property: 'og:image', content: './meta-image.png' }])
-    head.push(['meta', { property: 'og:image:width', content: '1500px' }])
-    head.push(['meta', { property: 'og:image:height', content: '1500px' }])
+    head.push(['meta', { property: 'og:image:width', content: '1200px' }])
+    head.push(['meta', { property: 'og:image:height', content: '630px' }])
 
     return head
   }
