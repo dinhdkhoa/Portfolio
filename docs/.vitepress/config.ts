@@ -29,7 +29,7 @@ export default defineConfig({
       'meta',
       {
         property: 'og:description',
-        content: 'Đinh Khoa is a Front End Developer in Ottawa. He is 👨‍💻 React developer.'
+        content: `Đinh Khoa is a Front End Developer in Ottawa. A new graduate developer who\'s eager to contribute my skills and knowledge to the industry.`
       }
     ])
     head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
@@ -40,7 +40,6 @@ export default defineConfig({
     head.push([
       'script',
       {
-        async: 'true',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-VFTTHKJH4P'
       }
     ])
