@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: Resume
-      link: https://onedrive.live.com/?authkey=%21AJN9DLjrS%5FwfCm4&id=96CF5B531474F268%215879&cid=96CF5B531474F268&parId=root&parQt=sharedby&o=OneUp
+      link: https://onedrive.live.com/?cid=96cf5b531474f268&id=96CF5B531474F268%215880&ithint=file%2Cpdf&authkey=%21AFA43eiGyAODpCs
     - theme: alt
       text: Contact
       link: mailto:kddinh212@gmail.com

@@ -37,7 +37,22 @@ export default defineConfig({
     head.push(['meta', { property: 'og:image', content: './meta-image.png' }])
     head.push(['meta', { property: 'og:image:width', content: '1200px' }])
     head.push(['meta', { property: 'og:image:height', content: '630px' }])
-
+    head.push([
+      'script',
+      {
+        async: 'true',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-VFTTHKJH4P'
+      }
+    ])
+    head.push([
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];\n
+      function gtag(){dataLayer.push(arguments);}\n
+      gtag('js', new Date());\n
+    
+      gtag('config', 'G-VFTTHKJH4P');\n`
+    ])
     return head
   }
 })

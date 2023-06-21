@@ -12,7 +12,7 @@ description: Đinh Khoa Portfolio Page
 <img src="/image.png" width="450" height="300">
 
 A e-commerce website built with React and Typescript based on [Shopee.vn](https://shopee.vn/).\
-Technology used: \
+Technology used:
 
 - Manage authentication with JWT (automatic token refresh applied)
 - Use Yup and React Hook Form to validate the form.
