@@ -11,7 +11,8 @@ description: Đinh Khoa Portfolio Page
 <br>
 <img src="/image.png" width="450" height="300">
 
-A e-commerce website built with React and Typescript based on [Shopee.vn](https://shopee.vn/).\
+A e-commerce website built with React and Typescript based on [Shopee.vn](https://shopee.vn/).
+
 Technology used:
 
 - Manage authentication with JWT (automatic token refresh applied)
@@ -26,3 +27,18 @@ Technology used:
 - Manage components with Storybook
 
 **[Live Demo](https://shopee.dinhkhoa.dev) | [Source Code](https://github.com/dinhdkhoa/Shopee-Clone)**
+
+### Course Management
+
+<br>
+
+A SSR CRUD application help managing online courses.
+
+Technology used:
+
+- Template Engine with handlebarsjs.
+- Server and routing with Node and Express.
+- Database built with MongoDB and Mongoose.
+- UI enhance with Bootstrap.
+
+**[Source Code](https://github.com/dinhdkhoa/course-management)**
