@@ -6,6 +6,13 @@ description: Đinh Khoa Experience Page
 
 # Work Experience
 
+Aug 2023 - Present \
+**Web Design/ Digital Marketing Intern** | True North Web Design
+
+- Developed responsive and user-friendly websites using Wordpress.
+- Guaranteed cross-platform compatibility and fine-tuned web applications for optimal performance and speed.
+- Carried out comprehensive testing and resolved issues to uphold top-notch quality standards.
+
 2023 - Present \
 **Freelance Developer**
 
