@@ -26,5 +26,5 @@ Aug 2023 - Present \
 
 ## Education
 
-2020 - 2023 \
+2018 - 2021 \
 **Algonquin College** | Internet Web Development & Mobile Application
