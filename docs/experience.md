@@ -9,6 +9,14 @@ description: Đinh Khoa Experience Page
 Oct 2023 - Present \
 **Front-end Developer Intern** | Indo Trans Logistics Corporation
 
+1. Project eOMS – eOMS Customer Portal:
+- Overhauled most of the codebase in Next.js, greatly improving readability, scalability, and performance.
+- Migrated all API endpoints to align with the company's standardized API model, enhancing consistency and 
+facilitating seamless integration with existing systems.
+- Improved the design of the user interface to simplify navigation and enhance the overall user experience.
+
+2. Project eBMS
+
 - Developed 20% of the total pages and 3 major features in the project eBMS for the client Sowatco.
 - Handled over 100 bugs and improved the performance and efficiency of the application, ensuring the quality
 and reliability of the project.
