@@ -9,7 +9,12 @@ description: Đinh Khoa Experience Page
 Oct 2023 - Present \
 **Front-end Developer Intern** | Indo Trans Logistics Corporation
 
-1. Project eOMS – eOMS Customer Portal:
+1. Project Enodes:
+- Created the development of the project's core architecture using the latest Next.js framework, implementing clean architecture techniques for robust and maintainable code.
+- Followed Next.js best practices to ensure optimal server-side and static rendering, significantly enhancing application performance and load times.
+- Applied design trends to elevate user interface and user experience, resulting in a visually appealing and intuitive product. 
+
+2. Project eOMS – eOMS Customer Portal:
 - Overhauled most of the codebase in Next.js, greatly improving readability, scalability, and performance.
 - Migrated all API endpoints to align with the company's standardized API model, enhancing consistency and 
 facilitating seamless integration with existing systems.

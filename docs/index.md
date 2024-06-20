@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: Resume
-      link: https://drive.google.com/file/d/10cUECZM_j_cgjrDihybqJVyK_vd0DAtt/view?usp=sharing
+      link: https://drive.google.com/file/d/1P3brrXaO91t0VO-qr9s53jTWNJnmFm1x/view?usp=sharing
     - theme: alt
       text: Contact
       link: mailto:kddinh212@gmail.com
