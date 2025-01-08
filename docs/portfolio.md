@@ -6,6 +6,21 @@ description: Đinh Khoa Portfolio Page
 
 # Portfolio
 
+### Food Ordering For Restaurants
+
+<br>
+<!-- <img src="/image.png" width="450" height="300"> -->
+
+A restaurant managing website built with Next.js 15 and Typescript.
+
+Technology used:
+
+- Lastest Next.js 15 with server rendering to enhance SEO and UX.
+- Separating private and public routes based on authentication and user roles using middlewares.
+
+
+**[Source Code](https://github.com/dinhdkhoa/next-super)**
+
 ### Shopee E-comerce
 
 <br>

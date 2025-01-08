@@ -18,7 +18,6 @@ export default defineConfig({
       message: 'Thank you for visiting. Built with <a href="https://vuejs.org/">Vue.js</a>.'
     }
   },
-
   head: [['link', { rel: 'icon', href: './favicon.ico' }]],
   appearance: 'dark',
   transformHead: ({ pageData }) => {
@@ -29,7 +28,7 @@ export default defineConfig({
       'meta',
       {
         property: 'og:description',
-        content: `Đinh Khoa is a Front End Developer in Ottawa. A new graduate developer who\'s eager to contribute my skills and knowledge to the industry.`
+        content: `Front End Developer in Saigon, Vietnam | I'm a junior front-end developer excited to dive into the tech world! Eager to use my skills to build awesome, user-friendly websites and learn along the way. Let’s create something great together!`
       }
     ])
     head.push(['meta', { property: 'og:url', content: 'dinhkhoa.dev' }])
