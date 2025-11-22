@@ -1,0 +1,56 @@
+---
+// Assets
+import Logo from "@/components/assets/Logo.astro";
+// Fundations
+import Text from "@/components/fundations/elements/Text.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+---
+
+<section>
+  <Wrapper variant="standard" class="pt-8 flex flex-col justify-between h-dvh">
+    <div class="flex flex-col lg:flex-row lg:justify-between items-start gap-8">
+      <Logo class="max-w-4xl text-black" />
+      <div class="flex gap-2 items-center w-fit order-first lg:order-none ml-auto">
+        <Text
+          tag="a"
+          variant="textXS"
+          class="text-base-900 hover:text-base-500 font-bold uppercase"
+          href="/"
+        >
+          Home</Text
+        >
+        <Text
+          tag="a"
+          variant="textXS"
+          class="text-base-900 hover:text-base-500 font-bold uppercase"
+          href="/system/overview"
+        >
+           overview</Text
+        >
+      </div>
+    </div>
+
+    <div
+      class="grid grid-cols-1 gap-4 md:grid-cols-3 border-b pb-8 border-base-200"
+    >
+      <div>
+        <Text
+          tag="h1"
+          variant="textXS"
+          class="text-base-900 font-bold uppercase"
+          >Product Designer in Åland Islands</Text
+        >
+      </div>
+      <div class="lg:col-span-2">
+        <Text tag="p" variant="textSM" class="text-base-600">
+          I’m a self-taught front-end developer and UI designer with a strong
+          passion for building my own projects. My philosophy revolves around
+          simplicity and practicality, focusing on straightforward principles
+          that deliver results. I value sticking to a clear plan and executing
+          it reliably, with consistency being the foundation that keeps
+          everything on track.
+        </Text>
+      </div>
+    </div>
+  </Wrapper>
+</section>
