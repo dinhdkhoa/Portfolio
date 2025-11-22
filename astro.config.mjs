@@ -7,6 +7,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   
-  site: 'https://yourdomain.com',
+  site: 'https://dinhkhoa.dev',
   integrations: [sitemap()]
 });

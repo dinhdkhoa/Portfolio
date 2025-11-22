@@ -19,6 +19,7 @@ export interface Props {
   href?: string; // Optional 'href' attribute for anchor tags
   class?: string; // Optional prop for additional custom classes
   variant?: string; // Specifies the style variant of the text
+  target?: string; // Optional prop for additional custom classes
 }
 
 // Define text styles for each variant
@@ -56,12 +57,13 @@ const {
   class: className = "", // No additional classes by default
   ...rest // Collect remaining props
 } = Astro.props;
-
+const linkClasses =
+	Tag === "a" ? "hover:text-red-500 transition-colors hover:underline cursor-pointer" : "";
 // Get the base classes for the specified variant
 const baseClasses = textStyles[variant] || textStyles.textMD; // Fallback to textMD if variant not found
 
 // Combine base classes with any additional custom classes
-const combinedClasses = `${baseClasses} ${className}`.trim();
+const combinedClasses = `${baseClasses} ${linkClasses} ${className}`.trim();
 ---
 <Tag
   class={combinedClasses}

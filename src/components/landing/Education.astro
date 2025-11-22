@@ -4,24 +4,12 @@ import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 // Data
 const data = [
-  {
-    period: "2020–2022",
-    title: "Master's in Graphic Design",
+      {period: "2018 - 2021",
+    title: "Internet Web Development & Mobile Application",
     description: `Focused on Swiss design principles, grid systems, and typography. Completed a thesis on the impact of modernist design on digital interfaces.`,
-    location: "Zurich University of the Arts, Zurich, Switzerland",
-  },
-  {
-    period: "2016–2020",
-    title: "Bachelor's in Visual Communication",
-    description: `Studied visual communication with an emphasis on minimalist design and the history of Swiss typography. Participated in design datashops and exhibitions.`,
-    location: "University of Applied Sciences, Basel, Switzerland",
-  },
-  {
-    period: "2014–2016",
-    title: "Diploma in Design Fundamentals",
-    description: `Learned foundational design principles, including color theory, composition, and the basics of type design. Gained exposure to Swiss design aesthetics.`,
-    location: "Geneva School of Design and Art, Geneva, Switzerland",
-  },
+    school: "Algonquin College",
+    schoolLink: "https://www.algonquincollege.com"
+  }
 ];
 ---
 
@@ -34,7 +22,7 @@ const data = [
         <Text
           tag="h2"
           variant="textSM"
-          class="text-base-900 font-bold uppercase"
+          class="text-base-900 dark:text-base-100 font-bold uppercase"
         >
           Education
         </Text>
@@ -47,14 +35,23 @@ const data = [
                 <Text
                   tag="h3"
                   variant="textSM"
-                  class="text-base-900   font-bold uppercase"
+                  class="text-base-900 dark:text-base-100 font-bold uppercase"
                 >
                   {data.title}
                 </Text>
                 <Text
+                  tag="a"
+                  variant="textSM"
+                  class="text-base-600 dark:text-base-400 mt-1"
+                  href={data.schoolLink}
+                  target="_blank"
+                >
+                  {data.school}
+                </Text>
+                <Text
                   tag="p"
                   variant="textXS"
-                  class=" mt-1 text-base-600        "
+                  class=" mt-1 text-base-200        "
                 >
                   {data.description}
                 </Text>
@@ -62,7 +59,7 @@ const data = [
               <Text
                 tag="p"
                 variant="textXS"
-                class="text-base-600    lg:ml-auto"
+                class="text-base-600 dark:text-base-400   lg:ml-auto"
               >
                 <time datetime={data.period}> {data.period}</time>
               </Text>

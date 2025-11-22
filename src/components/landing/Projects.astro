@@ -1,60 +1,46 @@
 ---
 // Assets
+import nextSuper from "@/images/projects/next-super.jpg";
+import shopeeClone from "@/images/projects/shopee-clone.png";
+import goLeaderboard from "@/images/projects/go-leaderboard.png";
+import netMicroservice from "@/images/projects/net-ms.png";
 import { Image } from "astro:assets";
-import one from "@/images/projects/4.png";
-import two from "@/images/projects/6.png";
-import three from "@/images/projects/5.png";
-import four from "@/images/projects/3.png";
-import five from "@/images/projects/2.png";
-import six from "@/images/projects/1.png";
 
 // Fundations
-import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import Text from "@/components/fundations/elements/Text.astro";
 // Icons
 const data = [
   {
-    image: one,
-    year: "2025",
-    title: "Fjord Weaver",
-    link: "#_",
-    description: `A minimalist grid system generator for modern web layouts, emphasizing clarity and structure.`,
+    image: shopeeClone,
+    year: "2023",
+    title: "Shopee Clone",
+    link: "https://shopee-clone-omega.vercel.app/",
+    description: `An e-commerce website built with React and Typescript.`,
   },
   {
-    image: two,
-    year: "2025",
-    link: "#_",
-    title: "Eco Saga",
-    description: `Typography scale calculator inspired by Swiss design principles for harmonious text hierarchies.`,
-  },
-  {
-    image: three,
+    image: nextSuper,
     year: "2024",
     link: "#_",
-    title: "MindMap Odin",
-    description: `Asymmetrical layout builder for clean, functional designs that prioritize readability.`,
+    title: "Next.js Restaurant Management",
+    description: `Restaurant management built with Next.js and TypeScript.`,
   },
   {
-    image: four,
-    year: "2023",
-    title: " Valhalla",
+    image: netMicroservice,
+    year: "2025",
     link: "#_",
-    description: `Sans-serif font pairing tool for creating elegant, readable typographic combinations.`,
+    title: "C# Microservice",
+    description: `Full scale microservice built with .NET and k8s.`,
   },
   {
-    image: five,
-    year: "2020",
-    title: "Space Aurora",
+    image: goLeaderboard,
+    year: "2024",
     link: "#_",
-    description: `Color palette generator using Swiss color theory for balanced and impactful designs.`,
+    title: "Real-time Leaderboard",
+    description: `High CCU application built with Go.`,
   },
-  {
-    image: six,
-    year: "2018",
-    title: "Health Rune",
-    link: "#_",
-    description: `Modular component library for structured UI design with emphasis on simplicity and functionality.`,
-  },
+
+ 
 ];
 ---
 
@@ -67,7 +53,7 @@ const data = [
         <Text
           tag="h2"
           variant="textSM"
-          class="text-base-900 font-bold uppercase"
+          class="text-base-900 dark:text-base-100 font-bold uppercase"
         >
           Projects
         </Text>
@@ -76,7 +62,7 @@ const data = [
         class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-8"
       >
         {
-          data.map((project) => (
+          data.reverse().map((project) => (
             <article class=" relative grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-start ">
               <Image
                 width={800}
@@ -89,7 +75,7 @@ const data = [
                 <Text
                   tag="h3"
                   variant="textSM"
-                  class="text-base-900   font-bold uppercase"
+                  class="text-base-900 dark:text-base-100 font-bold uppercase"
                 >
                   <a href={project.link}>
                     <>
@@ -101,7 +87,7 @@ const data = [
                 <Text
                   tag="p"
                   variant="textXS"
-                  class="relative z-10 text-base-600        "
+                  class="relative z-10 text-base-600 dark:text-base-400       "
                 >
                   {project.description}
                 </Text>
@@ -109,7 +95,7 @@ const data = [
               <Text
                 tag="p"
                 variant="textXS"
-                class="relative z-10   flex items-center text-sm text-base-600    lg:ml-auto"
+                class="relative z-10   flex items-center text-sm text-base-600 dark:text-base-400   lg:ml-auto"
               >
                 <time datetime={project.year}> {project.year}</time>
               </Text>
