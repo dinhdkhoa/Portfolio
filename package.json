@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
     "@astrolib/seo": "^1.0.0-beta.8",
-    "astro": "^5.14.3",
+    "astro": "^6.4.6",
     "sharp": "^0.34.5",
     "tailwind-scrollbar-hide": "^4.0.0"
   },
