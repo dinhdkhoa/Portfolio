@@ -13,7 +13,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "@astrolib/seo": "^1.0.0-beta.8",
     "astro": "^7.1.0",
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.0",
     "tailwind-scrollbar-hide": "^4.0.0"
   },
   "devDependencies": {
